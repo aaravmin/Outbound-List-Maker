@@ -1,7 +1,18 @@
-# Outbound-List-Maker
-I hated finding relevant contacts to reach out to everytime I wanted to conduct market research for a product of mine. Outbound List Maker is a tool I use to automate that proces.
+# Outbound List Maker
 
-Made to complete a task for Aakash Prasad, founder of InspectMind AI (YC W24)
+A local tool for turning a product/customer brief into a sourced outbound contact
+list. Add seed companies, people, websites, or notes directly in the web app;
+the AI uses those seeds to shape the generated list. The default output is 50
+people, not 50 companies: each row starts with a person name and email, then job
+title, company, firm type, source URL, and a short reason that person belongs on
+the list.
 
-Tag Line: 
-A local tool that takes a company’s target criteria, hard specifications, optional features, scoring rules, and seed companies, then produces a clean outbound list plus a criteria document.
+Run the app:
+
+```bash
+cd targetmap-builder
+export ANTHROPIC_API_KEY='sk-ant-...'
+./run.sh
+```
+
+Then open `http://127.0.0.1:8000`.

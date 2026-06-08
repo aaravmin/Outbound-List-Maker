@@ -1,0 +1,97 @@
+# =============================================================================
+# Outbound List Maker — Config Template
+# =============================================================================
+# Copy this file, rename it (e.g. config/<company>_<geo>.yaml), and edit the
+# values. The scripts read everything from here. You should not need to edit
+# the Python to retarget the tool for a new company, geography, or category set.
+# =============================================================================
+
+project_name: <Project Name>
+target_count: 50            # how many people/contact rows you are aiming for
+companies_to_find: 20       # rough number of companies the AI should research
+contacts_per_company: 3     # normally 2 or 3
+
+# -----------------------------------------------------------------------------
+# Who you are selling, and the problem you solve. Used to write why_relevant
+# lines and the priorities_and_specs.md doc.
+# -----------------------------------------------------------------------------
+company_context:
+  company: <Your Company>
+  product_description: <One sentence on what the product does.>
+  core_problem: <One sentence on the pain the product removes.>
+  relevant_workflows:           # workflows your product touches
+    - <workflow 1>
+    - <workflow 2>
+
+# -----------------------------------------------------------------------------
+# Where you are selling and into which buckets.
+# -----------------------------------------------------------------------------
+scope:
+  geography: <e.g. NYC / NYC metro>
+  firm_types:
+    - <Firm type A>
+    - <Firm type B>
+  categories:
+    - <Category A>
+    - <Category B>
+
+# How many rows you want per category. Keys must match scope.categories.
+category_targets:
+  <Category A>: 25
+  <Category B>: 25
+
+# -----------------------------------------------------------------------------
+# SPECIFICATIONS = hard rules that decide if a contact belongs on the list.
+# FEATURES        = fields you capture but do not necessarily filter on.
+# -----------------------------------------------------------------------------
+specifications:
+  required:
+    - <A contact/company must satisfy this to be included.>
+  excluded:
+    - <A contact/company matching this is removed.>
+
+# Fields to capture per contact row (the "features").
+features_to_capture:
+  - contact_name
+  - contact_email
+  - title
+  - company
+  - firm_type
+  - category
+  - website
+  - geography_relevance
+  - firm_size
+  - linkedin_url
+  - why_relevant
+  - priority
+  - notes
+  - source_url
+
+# Columns written to data/outbound_targets.csv and data/current_contacts.csv.
+output_columns:
+  - contact_name
+  - contact_email
+  - title
+  - company
+  - firm_type
+  - category
+  - website
+  - geography_relevance
+  - firm_size
+  - linkedin_url
+  - why_relevant
+  - priority
+  - notes
+  - source_url
+
+# -----------------------------------------------------------------------------
+# Priority logic. Documentation only — used to generate priorities_and_specs.md.
+# You assign High/Medium/Low per row using these rules.
+# -----------------------------------------------------------------------------
+priority_scoring:
+  high:
+    - <signal for High>
+  medium:
+    - <signal for Medium>
+  low:
+    - <signal for Low>

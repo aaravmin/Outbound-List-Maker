@@ -1,0 +1,91 @@
+project_name: Outbound List
+target_count: 50
+companies_to_find: 20
+contacts_per_company: 3
+
+company_context:
+  company: Your company
+  product_description: Paste your product, customer, and outbound brief in the web app.
+  core_problem: The app generates companies and relevant contacts from your brief.
+  relevant_workflows:
+    - buyer research
+    - market research
+    - outbound prospecting
+
+scope:
+  geography: Set in prompt
+  firm_types:
+    - Architecture
+    - Engineering
+    - Inspection / Code / Expediting
+    - Property Management
+    - Sustainability / Energy / Retrofit
+    - Construction Management / General Contractor
+    - Owner's Representative / Project Management
+    - Real Estate Developer
+    - Facilities / Building Operations
+    - Affordable Housing / Public Sector
+  categories:
+    - Can approve buying
+    - Manages the problem
+    - Does the work
+
+category_targets:
+  Can approve buying: 15
+  Manages the problem: 20
+  Does the work: 15
+
+specifications:
+  required:
+    - Must match the user-provided outbound brief.
+    - Must include a real company.
+    - Must include a relevant contact or a specific relevant buyer role.
+    - Must explain why this contact is relevant.
+    - Must include a source URL supporting the company, contact, or role relevance.
+  excluded:
+    - Companies or contacts that do not match the user brief.
+    - Generic contacts with no clear connection to the buying workflow.
+    - Guessed email addresses.
+
+features_to_capture:
+  - contact_name
+  - contact_email
+  - title
+  - company
+  - firm_type
+  - category
+  - website
+  - geography_relevance
+  - firm_size
+  - linkedin_url
+  - why_relevant
+  - priority
+  - notes
+  - source_url
+
+output_columns:
+  - contact_name
+  - contact_email
+  - title
+  - company
+  - firm_type
+  - category
+  - website
+  - geography_relevance
+  - firm_size
+  - linkedin_url
+  - why_relevant
+  - priority
+  - notes
+  - source_url
+
+priority_scoring:
+  high:
+    - Contact directly owns or influences the workflow in the brief.
+    - Company is a strong fit for the target market.
+    - Source URL supports the contact or role relevance.
+  medium:
+    - Contact is plausibly involved but may not own the workflow.
+    - Company fit is relevant but needs validation.
+  low:
+    - Contact or company fit is weak, generic, or hard to justify.

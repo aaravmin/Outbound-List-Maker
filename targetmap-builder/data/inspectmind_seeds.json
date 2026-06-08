@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Thornton Tomasetti",
+    "kind": "Company",
+    "website": "https://www.thorntontomasetti.com/",
+    "notes": "Major structural and building science consulting firm; active in NYC building compliance and retrofit projects including Local Law 97 consulting."
+  },
+  {
+    "name": "WSP",
+    "kind": "Company",
+    "website": "https://www.wsp.com/",
+    "notes": "Global engineering firm with NYC office; specializes in sustainability, energy efficiency, and building decarbonization strategy."
+  },
+  {
+    "name": "Arup",
+    "kind": "Company",
+    "website": "https://www.arup.com/",
+    "notes": "Engineering consulting firm; strong in building performance, energy audits, and retrofit strategy for NYC buildings."
+  },
+  {
+    "name": "Atelier Ten",
+    "kind": "Company",
+    "website": "https://www.ateliertennyc.com/",
+    "notes": "NYC-based sustainability consulting firm focused on energy modeling, daylighting, and decarbonization strategies."
+  },
+  {
+    "name": "SOM (Skidmore, Owings & Merrill)",
+    "kind": "Company",
+    "website": "https://www.som.com/",
+    "notes": "Leading architecture/engineering firm with NYC presence; active in sustainable building design and retrofit projects."
+  },
+  {
+    "name": "Langan",
+    "kind": "Company",
+    "website": "https://www.langan.com/",
+    "notes": "Building science and environmental consulting firm; NYC-based, focuses on building performance and compliance."
+  },
+  {
+    "name": "JLL",
+    "kind": "Company",
+    "website": "https://www.jll.com/",
+    "notes": "Major commercial real estate services firm with NYC headquarters; manages large building portfolios subject to Local Law 97."
+  },
+  {
+    "name": "CBRE",
+    "kind": "Company",
+    "website": "https://www.cbre.com/",
+    "notes": "Leading property management and real estate services firm; NYC-based, manages compliance and sustainability for large portfolios."
+  },
+  {
+    "name": "Newmark",
+    "kind": "Company",
+    "website": "https://www.nmrk.com/",
+    "notes": "NYC-based real estate services firm managing NYC commercial/multifamily properties subject to Local Law 97."
+  },
+  {
+    "name": "Renaissance Construction",
+    "kind": "Company",
+    "website": "https://www.rencon.com/",
+    "notes": "NYC-based construction management firm; active in building retrofit and energy efficiency projects."
+  },
+  {
+    "name": "F&H Construction",
+    "kind": "Company",
+    "website": "https://www.fhc.com/",
+    "notes": "NYC contractor specializing in building systems and retrofit work; direct execution of Local Law 97 compliance projects."
+  },
+  {
+    "name": "Verco",
+    "kind": "Company",
+    "website": "https://www.vercoservices.com/",
+    "notes": "Building performance and energy benchmarking specialist; helps NYC building owners meet reporting and compliance requirements."
+  },
+  {
+    "name": "Real Estate Board of New York (REBNY)",
+    "kind": "Organization",
+    "website": "https://www.rebny.com/",
+    "notes": "NYC real estate industry association; members are major building owners and managers affected by Local Law 97."
+  },
+  {
+    "name": "NYC Energy and Water Use Disclosure Program",
+    "kind": "Initiative",
+    "website": "https://a816-dca.nyc.gov/Rentguide/searchpage/",
+    "notes": "Source for identifying major NYC building owners managing large portfolios subject to compliance requirements."
+  },
+  {
+    "name": "Urban Land Institute - New York",
+    "kind": "Organization",
+    "website": "https://newyork.uli.org/",
+    "notes": "Key forum for NYC real estate development and sustainability; members include major developers and building operators."
+  },
+  {
+    "name": "Nuvolo",
+    "kind": "Company",
+    "website": "https://www.nuvolo.com/",
+    "notes": "Property operations and facilities management software; used by large NYC building managers for compliance tracking."
+  },
+  {
+    "name": "Passiv",
+    "kind": "Company",
+    "website": "https://www.passivehouse.com/",
+    "notes": "Passive House and building energy efficiency consulting; active in NYC retrofit and new construction projects."
+  },
+  {
+    "name": "Conviser Environmental",
+    "kind": "Company",
+    "website": "https://www.conviserenv.com/",
+    "notes": "NYC environmental consulting firm; specializes in energy audits and Local Law 97 compliance support."
+  },
+  {
+    "name": "Carbon Trust USA",
+    "kind": "Organization",
+    "website": "https://www.carbontrust.com/",
+    "notes": "International organization helping organizations reduce carbon; works with NYC buildings on decarbonization strategy."
+  },
+  {
+    "name": "Institute for Market Transformation",
+    "kind": "Organization",
+    "website": "https://imt.org/",
+    "notes": "Nonprofit focused on building policy and decarbonization; provides market intelligence on Local Law 97 and retrofit trends."
+  }
+]

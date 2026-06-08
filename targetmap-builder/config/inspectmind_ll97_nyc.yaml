@@ -1,0 +1,96 @@
+project_name: InspectMind - NYC Local Law 97 & Retrofit Market
+target_count: 50
+companies_to_find: 20
+contacts_per_company: 3
+
+company_context:
+  company: InspectMind
+  product_description: AI-powered software platform for building compliance, energy audits, and retrofit project management focused on NYC Local Law 97 and decarbonization.
+  core_problem: Building owners and managers struggle to track compliance deadlines, manage energy retrofit projects, conduct required audits, and coordinate with multiple contractors/consultants for Local Law 97 compliance and decarbonization work.
+  relevant_workflows:
+    - Energy audit coordination
+    - Local Law 97 compliance tracking
+    - Retrofit project management
+    - Building performance monitoring
+    - Contractor/consultant coordination
+    - Emissions tracking and reporting
+
+scope:
+  geography: NYC / NYC metro
+  firm_types:
+    - Architecture
+    - Engineering
+    - Inspection / Code / Expediting
+    - Property Management / Building Operations
+    - Sustainability / Energy / Retrofit
+    - Construction Management / General Contractor
+    - Real Estate Developer
+    - Facilities Management
+    - Energy Services / ESCOs
+  categories:
+    - Can approve / budgets for compliance
+    - Manages compliance workflows
+    - Does retrofit / inspection work
+
+category_targets:
+  Can approve / budgets for compliance: 15
+  Manages compliance workflows: 20
+  Does retrofit / inspection work: 15
+
+specifications:
+  required:
+    - Must be active in NYC real estate, building management, engineering, sustainability, or construction.
+    - Must have involvement in or responsibility for building compliance, energy efficiency, Local Law 97, or retrofit work.
+    - Must include a real company and a specific contact role (not generic admin).
+    - Must explain why this contact/company is relevant to Local Law 97, energy audits, or retrofit compliance.
+    - Must include a source URL supporting the company, role, or relevant project/initiative.
+  excluded:
+    - Generic marketing contacts or roles with no direct building operations responsibility.
+    - Companies with no NYC presence or activity.
+    - Contacts working solely on unrelated verticals.
+
+features_to_capture:
+  - contact_name
+  - contact_email
+  - title
+  - company
+  - firm_type
+  - category
+  - website
+  - geography_relevance
+  - firm_size
+  - linkedin_url
+  - why_relevant
+  - priority
+  - notes
+  - source_url
+
+output_columns:
+  - contact_name
+  - contact_email
+  - title
+  - company
+  - firm_type
+  - category
+  - website
+  - geography_relevance
+  - firm_size
+  - linkedin_url
+  - why_relevant
+  - priority
+  - notes
+  - source_url
+
+priority_scoring:
+  high:
+    - Contact directly owns building operations, compliance, energy management, or retrofit decisions at a major NYC building/portfolio.
+    - Firm is known for Local Law 97, sustainability, or retrofit project delivery in NYC.
+    - Company manages large NYC real estate portfolios or major building projects.
+    - Source URL directly connects contact/company to Local Law 97 or decarbonization work.
+  medium:
+    - Contact has relevant expertise but may not own buying decisions (influencer/advisor).
+    - Company does compliance or energy work but may not specialize in Local Law 97.
+    - Firm manages NYC buildings but retrofit/compliance is one of many services.
+  low:
+    - Contact or company role is tangential to Local Law 97 or compliance work.
+    - Hard to validate specific Local Law 97 or retrofit project involvement.
