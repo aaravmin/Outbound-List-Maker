@@ -1,2 +1,2 @@
 # Outbound-List-Maker
-[I hated finding a list of relevant contacts anytime I had to reach out to people with interesting backgrounds for a project of mine.](https://github.com/aaravmin/Outbound-List-Maker.git)
+I hated finding relevant contacts to reach out to everytime I wanted to conduct market research for a product of mine. Outbound List Maker is a tool I use to automate that process with contacts and relevant information. Made to complete a task for Aakash Prasad, founder of InspectMind AI (YC W24)
